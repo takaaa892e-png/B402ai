@@ -13,7 +13,7 @@ const {
   RECIPIENT,
   RELAYER,
   TOKEN,
-  MINT_COUNT = 10
+  MINT_COUNT = 100
 } = process.env;
 
 const provider = new ethers.providers.JsonRpcProvider(RPC);
